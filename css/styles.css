@@ -127,7 +127,17 @@ body{
 .header-icons{
     fill: currentColor;
 }
+.header-text-studio::after{
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    left: 335px;
+    top: 76px;
+    background: #2196F3;
+    border-radius: 2px;
 
+}
 
 /*--------------------PORTFOLIO--------------------*/
 .portfolio-btn:hover,
