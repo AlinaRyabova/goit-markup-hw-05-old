@@ -503,6 +503,7 @@ body{
 .team-soc-link:hover,
 .team-soc-link:focus{
     background-color: #2196F3;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-list{
     display: flex;
