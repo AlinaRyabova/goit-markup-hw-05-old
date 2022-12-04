@@ -485,7 +485,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    fill: #AFB1B8;
+    color: #AFB1B8;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -493,7 +493,7 @@ body{
 .team-soc-link:focus{
     color: #FFFFFF;
 }
-.team-soc-icons:hover{
+.team-soc-icons {
     fill: currentColor;
 }
 .team-soc-icons{
@@ -619,7 +619,7 @@ body{
 .footer-soc-icons{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-soc-icons:hover{
+.footer-soc-icons{
     fill: currentColor;
 }
 .footer-soc-link:hover,
