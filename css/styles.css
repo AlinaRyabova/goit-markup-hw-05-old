@@ -608,8 +608,8 @@ body{
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-soc-link:hover .team-soc-icons{
-    color: var(--primary-link-color);
+.footer-soc-link:hover .footer-soc-icons{
+    color: var(--primary-header-color);
     background-color: #2196F3;
 }
 .footer-soc-link:hover,
