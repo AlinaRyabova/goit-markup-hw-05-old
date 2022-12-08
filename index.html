@@ -301,26 +301,44 @@
                 </svg>
             </button>
             <p class="modal-heading">Залиште свої дані, ми вам передзвонимо</p>
-            <form action="">
+            <form action="signup_form">
             <div class="modal-input-group">
                 <label for="name">Ім'я</label>
+                <div class="modal-input-wrapper">
                 <input type="text" class="modal-input" placeholder="" name="name" id="name" required>
+                <svg class="modal-input-icon" width="18" height="18" ><use href="./images/icons.svg#icon-person-black"></use></svg>
+                </div>
             </div>
             <div class="modal-input-group">
-            <label for="tel">Телефон</label>
-                <input type="tel" class="modal-input" name="tel" id="tel" pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
+                <label for="tel">Телефон</label>
+                <div class="modal-input-wrapper">
+                <input type="tel" class="modal-input" name="tel" id="tel" required>
+                <svg class="modal-input-icon" width="18" height="18" ><use href="./images/icons.svg#icon-phone-black"></use></svg>
+                </div>
             </div>
+
             <div class="modal-input-group">
             <label for="email">Пошта</label>
+            <div class="modal-input-wrapper">
                 <input type="email" class="modal-input" name="email" id="email" required>
+                <svg class="modal-input-icon" width="18" height="18" ><use href="./images/icons.svg#icon-email-black"></use></svg>
+            </div>
             </div>
 
             <div class="modal-input-group">
                 <label for="comment">Коментар</label>
                 <textarea name="comment" id="comment" class="modal-text" placeholder="Введіть текст"></textarea>
-                
+            </div> 
+
+            <div class="modal-input-group">
+<input type="checkbox" name="politic" id="politic" class="modal-politic-check visually-hidden">
+<label for="politic" class="modal-politic-label">Погоджуюся з розсилкою та приймаю Умови договору</label>
+</div>
+            
                 <button type="submit" class="main-btn">Відправити</button>
+            </div>
             </form>
+
         </div>
         </div>
     <script src="./js/modal.js"></script>
