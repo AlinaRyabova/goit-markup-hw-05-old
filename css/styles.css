@@ -771,7 +771,7 @@ label.modal-politic-label{
     width: 16px;
     height: 15px;
     border: 2px solid #212121;
-    margin-right: 8px;
+    margin-right: 9px;
 }
 .modal-politic-check:checked + label::before{
     border: none;
